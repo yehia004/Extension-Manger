@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Extension Manager</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>
+                <input type="text" id="search-box" placeholder="Search Extensions..." autocomplete="off">
+            </h1>
+            <ul id="autocomplete-list" class="autocomplete-list"></ul>
+            <div class="filter-buttons">
+                <button id="show-all" class="active">All</button>
+                <button id="show-active">Active</button>
+                <button id="show-inactive">Inactive</button>
+            </div>
+        </header>
+        
+        <section id="extensions-list" class="extensions-list"></section>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
